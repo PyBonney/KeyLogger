@@ -1,13 +1,14 @@
 import json
 import itertools
+import os
 from typing import Any, Literal
 
 import requests
 from flask import Flask, request
 
 URL_DISCORD_WEBHOOK_API = "https://discord.com/api/webhooks/{id}/{token}"
-WEBHOOK_ID = 921147752279326740
-WEBHOOK_TOKEN = "DnN-fXJUYUyGymeIyQNhYvueUX6lLxFatXu4ru7BVuLxAilnTMBNe86HSj61rQBc2igl"
+WEBHOOK_ID = os.environ["WEBHOOK_ID"]
+WEBHOOK_TOKEN = os.environ["WEBHOOK_TOKEN"]
 
 app = Flask(__name__)
 
