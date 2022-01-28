@@ -1,6 +1,6 @@
 # KeyLogger
 
-Esse projeto é apenas para estudos, não nos responsabilisamos por qualquer uso indevido ou prejudiciais do mesmo.
+Esse projeto é apenas para estudos, não nos responsabilizamos por qualquer uso indevido ou prejudiciais do mesmo.
 
 ## Sobre
 
